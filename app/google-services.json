@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "718012315777",
+    "firebase_url": "https://pastachat-6ac6e.firebaseio.com",
+    "project_id": "pastachat-6ac6e",
+    "storage_bucket": "pastachat-6ac6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718012315777:android:301dd72919aa8c59923580",
+        "android_client_info": {
+          "package_name": "com.example.pastachat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718012315777-c9csla7ci43f933nq4gpguchjbcf58ai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvckqkRkIUHdSja6g92kZV81ubtXbsBB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718012315777-c9csla7ci43f933nq4gpguchjbcf58ai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718012315777:android:58fc87e34526840d",
+        "android_client_info": {
+          "package_name": "com.sergiozed7.pastachat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718012315777-34gecj2rrbpcpo688h8s1s7257trmnsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sergiozed7.pastachat",
+            "certificate_hash": "ab58f098770cc4da6a32e0698abdfedb10d33d7a"
+          }
+        },
+        {
+          "client_id": "718012315777-c9csla7ci43f933nq4gpguchjbcf58ai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvckqkRkIUHdSja6g92kZV81ubtXbsBB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718012315777-c9csla7ci43f933nq4gpguchjbcf58ai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
