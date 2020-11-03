@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+/*
+PastaChat Created by Sergio Bracale and Daniel Kirkham
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
