@@ -6,6 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
 import com.example.pastachat.Interfaces.LoginInterface;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -18,12 +21,30 @@ public class Login extends AppCompatActivity implements LoginInterface {
 
     private FirebaseAuth auth;
 
+    private EditText emailText, passwordText;
+    private Button signInButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         auth = FirebaseAuth.getInstance();
+
+        emailText = findViewById(R.id.emailText);
+        passwordText = findViewById(R.id.passwordText);
+        signInButton = findViewById(R.id.signInButton);
+
+        signInButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String email = emailText.getText().toString();
+                String password = passwordText.getText().toString();
+
+                LoginEmailPassword(email, password);
+
+
+            }
+        });
     }
 
     private void LoginEmailPassword(String email, String password) {

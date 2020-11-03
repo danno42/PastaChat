@@ -1,5 +1,6 @@
 package com.example.pastachat;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -30,4 +31,5 @@ public class Preloader extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
 }
