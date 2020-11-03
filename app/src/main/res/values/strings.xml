@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PastaChat</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="don_t_have_an_account">Don\'t have an Account?</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
