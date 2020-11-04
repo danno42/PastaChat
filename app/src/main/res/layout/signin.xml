@@ -41,35 +41,41 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
                 android:textColor="@android:color/black"
-                android:textSize="30dp"/>
+                android:textSize="30sp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Email"
-                android:layout_gravity="left"
+                android:layout_gravity="start"
                 android:layout_marginTop="100dp"
                 android:textColor="@android:color/black"
-                android:textSize="12dp"/>
+                android:textSize="12sp"/>
             
             <EditText
                 android:id="@+id/emailSignupText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Password"
-                android:layout_gravity="left"
+                android:layout_gravity="start"
                 android:layout_marginTop="10dp"
                 android:textColor="@android:color/black"
-                android:textSize="12dp"/>
+                android:textSize="12sp"/>
 
             <EditText
                 android:id="@+id/passwordSignupText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                />
 
             <Button
                 android:id="@+id/signupButton"
@@ -92,21 +98,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/don_t_have_an_account"
-                    android:layout_gravity="left"
+                    android:layout_gravity="start"
                     android:layout_marginTop="10dp"
                     android:textColor="@android:color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="12sp"/>
 
                 <TextView
                     android:id="@+id/sign_up"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
+                    android:layout_gravity="start"
                     android:layout_marginTop="10dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
                     android:text="@string/sign_up"
                     android:textColor="#329BFF"
-                    android:textSize="12dp" />
+                    android:textSize="12sp" />
 
             </LinearLayout>
 

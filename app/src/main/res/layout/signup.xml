@@ -54,7 +54,10 @@
             <EditText
                 android:id="@+id/firstnameText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="textPersonName"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -67,7 +70,10 @@
             <EditText
                 android:id="@+id/lastnameText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="textPersonName"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -80,7 +86,10 @@
             <EditText
                 android:id="@+id/emailSignupText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -88,12 +97,15 @@
                 android:text="@string/Password"
                 android:layout_marginTop="10dp"
                 android:textColor="@android:color/black"
-                android:textSize="12sp" />
+                android:textSize="12sp"/>
 
             <EditText
                 android:id="@+id/passwordSignupText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -106,7 +118,10 @@
             <EditText
                 android:id="@+id/confirmpasswordText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                />
 
             <Button
                 android:id="@+id/signUpButton"
@@ -133,10 +148,10 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/sign_up"
+                    android:id="@+id/sign_in"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/sign_up"
+                    android:text="@string/sign_in"
                     android:layout_marginLeft="5dp"
                     android:textColor="#329BFF"
                     android:textSize="12sp" />

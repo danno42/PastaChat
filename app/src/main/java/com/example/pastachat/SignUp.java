@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.example.pastachat.Interfaces.SignUpInterface;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -31,19 +32,20 @@ public class SignUp extends AppCompatActivity implements SignUpInterface {
 
     private EditText emailText, passwordText;
     private Button signupButton;
+    private TextView signInText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
+        setContentView(R.layout.signup);
 
         auth = FirebaseAuth.getInstance();
         db = FirebaseFirestore.getInstance();
 
         emailText = findViewById(R.id.emailSignupText);
         passwordText = findViewById(R.id.passwordSignupText);
-
         signupButton = findViewById(R.id.signUpButton);
+        signInText = findViewById(R.id.sign_in);
 
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +54,15 @@ public class SignUp extends AppCompatActivity implements SignUpInterface {
                 String password = passwordText.getText().toString();
 
                 SignupEmailPassword(email, password);
+            }
+        });
+
+        signInText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SignUp.this, SignIn.class);
+
+                startActivity(intent);
             }
         });
 

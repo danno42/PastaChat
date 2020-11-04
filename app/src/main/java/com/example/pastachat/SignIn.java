@@ -24,7 +24,7 @@ public class SignIn extends AppCompatActivity implements SignInInterface {
 
     private EditText emailText, passwordText;
     private Button signInButton;
-    private TextView signupText;
+    private TextView signUpText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,7 @@ public class SignIn extends AppCompatActivity implements SignInInterface {
         emailText = findViewById(R.id.emailSignupText);
         passwordText = findViewById(R.id.passwordSignupText);
         signInButton = findViewById(R.id.signupButton);
-        signupText = findViewById(R.id.sign_up);
+        signUpText = findViewById(R.id.sign_up);
 
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,7 +48,7 @@ public class SignIn extends AppCompatActivity implements SignInInterface {
             }
         });
 
-        signupText.setOnClickListener(new View.OnClickListener() {
+        signUpText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SignIn.this, SignUp.class);

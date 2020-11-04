@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SignUp" />
-        <activity android:name=".Preloader" />
-        <activity android:name=".SignIn">
+        <activity android:name=".SignIn" />
+        <activity android:name=".Preloader">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
