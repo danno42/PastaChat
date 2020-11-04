@@ -41,8 +41,6 @@ public class Login extends AppCompatActivity implements LoginInterface {
                 String password = passwordText.getText().toString();
 
                 LoginEmailPassword(email, password);
-
-
             }
         });
     }
@@ -78,7 +76,8 @@ public class Login extends AppCompatActivity implements LoginInterface {
     }
 
     @Override
-    public void LoginFailed() {
+    public void LoginFail() {
 
     }
+
 }
