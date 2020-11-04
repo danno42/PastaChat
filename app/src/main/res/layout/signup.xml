@@ -78,7 +78,7 @@
                 android:textSize="12sp" />
 
             <EditText
-                android:id="@+id/emailText"
+                android:id="@+id/emailSignupText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -91,7 +91,7 @@
                 android:textSize="12sp" />
 
             <EditText
-                android:id="@+id/passwordText"
+                android:id="@+id/passwordSignupText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -109,7 +109,7 @@
                 android:layout_height="wrap_content" />
 
             <Button
-                android:id="@+id/signInButton"
+                android:id="@+id/signupButton"
                 android:layout_width="250dp"
                 android:layout_height="36dp"
                 android:layout_gravity="center"

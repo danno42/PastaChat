@@ -33,9 +33,9 @@ public class SignIn extends AppCompatActivity implements SignInInterface {
 
         auth = FirebaseAuth.getInstance();
 
-        emailText = findViewById(R.id.emailText);
-        passwordText = findViewById(R.id.passwordText);
-        signInButton = findViewById(R.id.signInButton);
+        emailText = findViewById(R.id.emailSignupText);
+        passwordText = findViewById(R.id.passwordSignupText);
+        signInButton = findViewById(R.id.signupButton);
         signupText = findViewById(R.id.sign_up);
 
         signInButton.setOnClickListener(new View.OnClickListener() {
