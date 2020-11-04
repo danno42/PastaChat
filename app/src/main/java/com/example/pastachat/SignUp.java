@@ -43,7 +43,7 @@ public class SignUp extends AppCompatActivity implements SignUpInterface {
         emailText = findViewById(R.id.emailSignupText);
         passwordText = findViewById(R.id.passwordSignupText);
 
-        signupButton = findViewById(R.id.signupButton);
+        signupButton = findViewById(R.id.signUpButton);
 
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
