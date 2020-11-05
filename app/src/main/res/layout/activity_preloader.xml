@@ -7,7 +7,7 @@
     tools:context=".Preloader">
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/preloaderProgressBar"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,8 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,7 +25,7 @@
         android:text="PastaChat"
         android:textColor="@android:color/black"
         android:textSize="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintBottom_toTopOf="@+id/preloaderProgressBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,12 +35,12 @@
         android:id="@+id/textLog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressBar"
-        android:text=""
-        android:textSize="17dp"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/preloaderProgressBar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
